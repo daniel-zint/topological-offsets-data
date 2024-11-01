@@ -1,0 +1,149 @@
+{
+    "input": {
+        "distance": 0.04,
+        "embedding_passes": 2,
+        "finite_offset": false,
+        "input": "73336.msh",
+        "input_path": "",
+        "intermediate_output": true,
+        "log_file": "topological_offsets_log.txt",
+        "max_edge_length": null,
+        "max_normal_deviation": 15,
+        "min_edge_length": null,
+        "min_normal_deviation": 2,
+        "offset_passes": 2,
+        "opt_log_level": 6,
+        "output": "",
+        "passes": 10,
+        "relative_distance_and_length": true,
+        "report": "73336_report.json",
+        "restrict_min_edge_length_to_input_avg": false,
+        "side": "out",
+        "use_simplicial_embedding": true,
+        "use_warm_start": true
+    },
+    "stats": {
+        "edges": 49836,
+        "tets": 41444,
+        "tog": {
+            "optimization": {
+                "initial_offset_distance": 1.7717645910767856
+            },
+            "optimization_metrics": {
+                "input": {
+                    "max_edge_length": null,
+                    "max_normal_deviation": 15.0,
+                    "min_edge_length": 0.1176733459188442,
+                    "min_normal_deviation": 2.0,
+                    "num_triangles": 4,
+                    "num_vertices": 4,
+                    "offset_distance": 0.22732744777771788
+                },
+                "metrics": [
+                    {
+                        "mean_ratio_metric_average": 0.8651135838293739,
+                        "mean_ratio_metric_min": 0.4039042812321607,
+                        "normal_deviation_average": 32.10044784696742,
+                        "normal_deviation_max": 83.61355943085633,
+                        "num_embedding_tets": 8963,
+                        "num_embedding_vertices": 1959,
+                        "num_offset_triangles": 82,
+                        "num_offset_vertices": 43,
+                        "relative_distance_average": 7.520444576557681,
+                        "relative_distance_max": 10.285938159349582
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.6869695942353744,
+                        "mean_ratio_metric_min": 0.03435804157551051,
+                        "normal_deviation_average": 19.837272396602255,
+                        "normal_deviation_max": 39.02840218679068,
+                        "num_embedding_tets": 10580,
+                        "num_embedding_vertices": 2254,
+                        "num_offset_triangles": 314,
+                        "num_offset_vertices": 159,
+                        "relative_distance_average": 0.08603316841142992,
+                        "relative_distance_max": 0.18580044167545307
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.8026191569218846,
+                        "mean_ratio_metric_min": 0.17040864837192402,
+                        "normal_deviation_average": 12.741142071097725,
+                        "normal_deviation_max": 31.291907344484386,
+                        "num_embedding_tets": 16145,
+                        "num_embedding_vertices": 3250,
+                        "num_offset_triangles": 1156,
+                        "num_offset_vertices": 580,
+                        "relative_distance_average": 0.03391553566332453,
+                        "relative_distance_max": 0.11909484545329788
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.8561248224955086,
+                        "mean_ratio_metric_min": 0.3485858857836711,
+                        "normal_deviation_average": 9.88880836094036,
+                        "normal_deviation_max": 18.715153182296003,
+                        "num_embedding_tets": 23908,
+                        "num_embedding_vertices": 4619,
+                        "num_offset_triangles": 2224,
+                        "num_offset_vertices": 1114,
+                        "relative_distance_average": 0.01837575806258738,
+                        "relative_distance_max": 0.06555144582504104
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.8645597699661909,
+                        "mean_ratio_metric_min": 0.3362259748487591,
+                        "normal_deviation_average": 9.55651733495234,
+                        "normal_deviation_max": 19.16020665517044,
+                        "num_embedding_tets": 27448,
+                        "num_embedding_vertices": 5216,
+                        "num_offset_triangles": 2348,
+                        "num_offset_vertices": 1176,
+                        "relative_distance_average": 0.01688123932745421,
+                        "relative_distance_max": 0.05342338521566628
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.8660153899876502,
+                        "mean_ratio_metric_min": 0.336244856027234,
+                        "normal_deviation_average": 9.4920664560072,
+                        "normal_deviation_max": 19.130201240207263,
+                        "num_embedding_tets": 30788,
+                        "num_embedding_vertices": 5773,
+                        "num_offset_triangles": 2366,
+                        "num_offset_vertices": 1185,
+                        "relative_distance_average": 0.016617601399036907,
+                        "relative_distance_max": 0.0522083752953186
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.8656237225661753,
+                        "mean_ratio_metric_min": 0.33628670003881844,
+                        "normal_deviation_average": 9.499365944346103,
+                        "normal_deviation_max": 19.17386249853511,
+                        "num_embedding_tets": 35289,
+                        "num_embedding_vertices": 6553,
+                        "num_offset_triangles": 2362,
+                        "num_offset_vertices": 1183,
+                        "relative_distance_average": 0.0166147443827383,
+                        "relative_distance_max": 0.05120795719083461
+                    },
+                    {
+                        "mean_ratio_metric_average": 0.865635489464301,
+                        "mean_ratio_metric_min": 0.3362891880737813,
+                        "normal_deviation_average": 9.499742545944223,
+                        "normal_deviation_max": 19.20647042091066,
+                        "num_embedding_tets": 41444,
+                        "num_embedding_vertices": 7603,
+                        "num_offset_triangles": 2362,
+                        "num_offset_vertices": 1183,
+                        "relative_distance_average": 0.016615933308483672,
+                        "relative_distance_max": 0.050819587615953274
+                    }
+                ]
+            },
+            "timings_seconds": {
+                "bvh_init": 125,
+                "tog_init": 1
+            }
+        },
+        "triangles": 83678,
+        "vertices": 7603
+    }
+}

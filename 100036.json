@@ -1,0 +1,8 @@
+{
+  "input": "100036.msh",
+  "distance": 0.04,
+  "finite_offset": false,
+  "restrict_min_edge_length_to_input_avg": true,
+  "intermediate_output": true,
+  "report": "100036_report.json"
+}

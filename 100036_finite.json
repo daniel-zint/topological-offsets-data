@@ -1,0 +1,7 @@
+{
+  "input": "100036.msh",
+  "distance": 0.04,
+  "finite_offset": true,
+  "intermediate_output": true,
+  "report": "100036_finite_report.json"
+}
