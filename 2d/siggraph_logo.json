@@ -2,14 +2,14 @@
     "input": "siggraph_logo.msh",
     "tag_input": "siggraph_logo_cut.msh",
     "2d": true,
-    "distance": 0.1,
+    "distance": 0.08,
     "invert_tags": false,
     "adapt_offset_distance": true,
-    "side": "in",
+    "side": "out",
     "max_normal_deviation": 3,
-    "max_edge_length": 0.2,
     "min_edge_length": 0.005,
     "finite_offset": false,
+    "passes": 10,
     "intermediate_output": true,
     "report": "siggraph_logo_report.json"
 }
