@@ -1,0 +1,10 @@
+{
+    "input": "blocks_singularity.msh",
+    "distance": 0.08,
+    "finite_offset": false,
+    "restrict_min_edge_length_to_input_avg": false,
+    "intermediate_output": true,
+    "passes": 10,
+    "distance_function": "(((sin(5*ux * 3.14) + sin(5*uy * 3.14) + sin(5*uz * 3.14)) / 3 + 1) * 0.5) * 0.8 * d + 0.2 * d",
+    "report": "blocks_singularity_layers_report.json"
+}
